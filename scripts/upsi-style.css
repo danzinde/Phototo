@@ -1,0 +1,25 @@
+body {
+    background: #ff7600;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+#yo {
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 90px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+#ya {
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    position: relative;
+    top: 200px;
+}

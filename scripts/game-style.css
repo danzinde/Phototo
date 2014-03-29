@@ -1,0 +1,221 @@
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);	
+    margin: 0;
+}
+
+body {
+    background: rgb(179, 179, 179) no-repeat;
+    padding: 0;
+    text-align: center;
+}
+/************************************************************************************** topbar */
+#topbar {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+    position: relative;
+}
+/************************************************************************************** overlay */
+#overlay-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.6;
+    z-index: 5;
+    display: none;
+}
+
+#overlay {
+    position: absolute;
+    margin: 0px auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: none;
+}
+
+#largeImage {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.large {
+    height: 100%;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+#title {
+    line-height: 500px;
+    font-size: 75px;
+}
+
+#inst1 {
+    margin-bottom: 20px;
+}
+#inst2, #inst3, #inst4 {
+    margin-bottom: 10px;
+}
+
+#inst5 {
+    top: 550px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#one, #two {
+    height: 80px;
+}
+
+#two {
+    margin-left: 750px;
+}
+
+#three {
+    margin-right: 600px;
+    height: 150px;
+    -webkit-transform:rotate(20deg);
+}
+
+#four {
+    -webkit-transform: scaleX(-1);
+    margin-right: 100px;
+    height: 70px;
+}
+/************************************************************************************** gameboard */
+#gameboard {
+    position: relative;
+    margin: 0px auto;
+    height: 100%;
+    width: 100%;
+}   
+
+/************************************************************************************** images */
+#img_container {
+    position: relative;
+    display: table;
+    vertical-align: middle;
+    height: 500px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 4px;
+}
+
+#mainTop, #mainBottom {
+    display: table-row;
+    vertical-align: middle;
+}
+
+.landscape {
+    height: 100%;
+    max-width: 45%;
+}
+
+.portrait { 
+    height: 100%;
+}
+
+.squared { 
+    height: 100%;
+}
+
+.right-side-space {
+    margin-right: 4px;
+}
+/************************************************************************************** scoring */
+#score_container {
+    display: table;
+    margin: 0px auto;
+    border-collapse: collapse;
+    height: 115px;
+    margin-top: 10px;
+}
+
+#score_bar {
+    display: table-row;
+    width: 100%;
+}
+
+.mini {
+    height: 50px;
+    width: 50px;
+}
+
+#bad, #excellent {
+    display: table-cell;
+    vertical-align: middle; 
+    width: 100px;
+}
+
+.scorebox {
+    display: table-cell;
+    width: 150px;
+}
+
+#score1, #score2, #score3, #score4, #score5 {
+    position: absolute;
+    width: inherit;
+    display: table;
+    border-collapse: collapse;
+}
+
+#top1, #top2, #top3, #top4, #top5 {
+    display: table-row;
+    z-index: 20;
+}
+
+#bottom1, #bottom2, #bottom3, #bottom4, #bottom5 {
+    display: table-row;
+}
+
+#box1 {
+    background: url("../images/star1.png") no-repeat center center;
+    background-size: contain;
+}
+#box2 {
+    background: url("../images/star2.png") no-repeat center center;
+    background-size: contain;
+}
+#box3 {
+    background: url("../images/star3.png") no-repeat center center;
+    background-size: contain;
+}
+#box4 {
+    background: url("../images/star4.png") no-repeat center center;
+    background-size: contain;
+}
+#box5 {
+    background: url("../images/star5.png") no-repeat center center;
+    background-size: contain;
+}
+/************************************************************************************** end */
+#end {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+
